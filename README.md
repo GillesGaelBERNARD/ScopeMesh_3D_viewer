@@ -4,6 +4,8 @@ ScopeMesh is a local viewer for large, textured photogrammetry meshes in Wavefro
 
 It adaptively loads low-, medium-, or source-resolution textures for the current view, and can pin a user-selected area at source resolution for controlled, localized inspection.
 
+![Coral reef model open in ScopeMesh 3D viewer](app/screenshots/coral_reef.png)
+
 ## Why ScopeMesh
 
 Large photogrammetry models can be difficult to explore when their full texture set exceeds GPU memory. Loading everything at once makes navigation slow or can prevent the model from opening at all.
@@ -12,8 +14,6 @@ ScopeMesh keeps a lightweight overview available, streams better textures where 
 
 Everything runs locally. Models, generated assets, measurements, and cached detail stay on the machine.
 
-![Coral reef model open in ScopeMesh 3D viewer](app/screenshots/coral_reef.png)
-
 ## Features
 
 - **Large textured OBJ support** — add a model from the app; conversion happens in the background.
@@ -21,7 +21,7 @@ Everything runs locally. Models, generated assets, measurements, and cached deta
 - **Adaptive texture quality** — Auto, Overview, and Detail modes balance clarity and GPU use.
 - **Source-resolution inspection** — double-click a surface or draw an area to load its original texture pixels.
 - **Predictable memory use** — set a GPU texture budget from 0.5 to 12 GiB without restarting.
-- **Persistent detail cache** — generated detail tiles load faster next time and are removed oldest-first when the cache limit is reached.
+- **Configurable detail cache** — set a 0.5 to 10 GiB disk limit; generated detail tiles load faster next time and are removed oldest-first when the limit is reached.
 - **Scale calibration** — add one or more known-length references; ScopeMesh fits a shared scale for the model.
 - **3D measurements** — measure straight-line distances between surface points in model units or calibrated real-world units.
 - **Non-destructive workflow** — original geometry and textures are read-only.
