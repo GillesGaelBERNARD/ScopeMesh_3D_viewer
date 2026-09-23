@@ -34,7 +34,7 @@
               <button class="info-trigger" type="button" aria-label="About texture streaming" aria-expanded="false" aria-controls="texture-streaming-info">?</button>
               <div class="info-popover" id="texture-streaming-info" role="dialog" aria-label="About texture streaming" hidden>
                 <button class="info-close" type="button" aria-label="Close">×</button>
-                <p><strong>Quality</strong> decides how aggressively textures sharpen after movement stops. If the model's complete source-resolution texture set fits the GPU budget, <strong>Auto · balanced</strong> and <strong>Detail · aggressive</strong> load the entire model at full source resolution; the top status bar confirms when loading is complete. Otherwise, textures stream within the budget. Draw an area to keep one region at source resolution; the status bar confirms when that selection is fully loaded.</p>
+                <p><strong>Quality</strong> decides how aggressively textures sharpen after movement stops. The GPU texture budget covers the whole model, not only source-resolution detail. While detail tiles are active, ScopeMesh reserves 25% for a lower-resolution view of the rest of the model and gives detail the remaining 75%: a 2.0 GiB total budget provides up to 1.5 GiB for detail. If the model's complete source-resolution texture set fits the budget, <strong>Auto · balanced</strong> and <strong>Detail · aggressive</strong> load the entire model at full source resolution; the top status bar confirms when loading is complete. Otherwise, textures stream within the budget. Draw an area to keep one region at source resolution; the status bar confirms when that selection is fully loaded.</p>
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@
             <input id="texture-budget" type="range" min="512" max="12288" step="256" value="2048" />
             <div class="budget-scale"><span>0.5 GiB</span><span>12 GiB</span></div>
           </div>
-          <p class="tool-help">Use about half of dedicated GPU memory. 2.0 GiB is a safe start for a 4 GB GPU.</p>
+          <p class="tool-help">Use about half of dedicated GPU memory. 25% stays reserved for the lower-resolution model while detail is active.</p>
           <p class="tool-help">Detail keeps loaded source tiles while you orbit or zoom, then reuses visible tiles after movement stops. Models whose complete source set fits memory load fully. Draw a box to pin a specific area.</p>
           <div class="button-grid selection-actions">
             <button id="select-area" type="button" aria-pressed="false">Draw detail area</button>
@@ -160,9 +160,9 @@
       <div class="measure-readout glass hidden" id="measure-readout">Click two points on the reef</div>
       <div class="selection-rect hidden" id="selection-rect"></div>
       <div class="help glass">
-        <span><i class="mouse left"></i> Orbit</span>
-        <span><i class="mouse right"></i> Pan</span>
-        <span><i class="mouse wheel"></i> Zoom</span>
+        <span><i class="mouse left" aria-hidden="true"></i> Left-drag to orbit</span>
+        <span><i class="mouse right" aria-hidden="true"></i> Right-drag to pan</span>
+        <span><i class="mouse wheel" aria-hidden="true"></i> Scroll to zoom</span>
         <span>Double-click to inspect full detail</span>
       </div>
 

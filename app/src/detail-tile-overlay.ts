@@ -279,7 +279,7 @@ export class DetailTileOverlay {
           phase: "limited", source, requestedTiles: plan.totalTiles,
           loadedTiles: preserveLoadedTiles ? this.attachedTiles.size : 0, materialCount,
           estimatedGpuBytes: preserveLoadedTiles ? this.estimatedGpuBytes : 0, coverage: plan.coverage,
-          message: `That box needs ${(plan.requiredGpuBytes / 1024 ** 3).toFixed(1)} GiB for complete detail. Draw a smaller box.`,
+          message: `That box needs ${(plan.requiredGpuBytes / 1024 ** 3).toFixed(1)} GiB, exceeding the detail share of your GPU budget. Draw a smaller box.`,
         });
         return;
       }

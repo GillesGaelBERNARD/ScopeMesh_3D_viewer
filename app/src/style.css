@@ -171,7 +171,45 @@ button[aria-pressed="true"] { color: #061414; background: #6bdcc3; border-color:
   pointer-events: none;
 }
 .help span { display: flex; align-items: center; gap: 5px; }
-.mouse { width: 8px; height: 11px; border: 1px solid #789995; border-radius: 5px; opacity: .75; }
+.mouse {
+  position: relative;
+  flex: 0 0 auto;
+  width: 10px;
+  height: 15px;
+  overflow: hidden;
+  border: 1px solid #789995;
+  border-radius: 6px;
+  opacity: .9;
+}
+.mouse::before, .mouse::after { content: ""; position: absolute; }
+.mouse.left::before, .mouse.right::before {
+  top: -1px;
+  width: 5px;
+  height: 7px;
+  background: #71e1bf;
+  box-shadow: 0 0 5px rgba(113, 225, 191, .55);
+}
+.mouse.left::before { left: -1px; border-right: 1px solid #789995; border-bottom: 1px solid #789995; border-radius: 5px 0 2px; }
+.mouse.right::before { right: -1px; border-left: 1px solid #789995; border-bottom: 1px solid #789995; border-radius: 0 5px 0 2px; }
+.mouse.wheel::before {
+  top: 2px;
+  left: 50%;
+  width: 2px;
+  height: 5px;
+  border-radius: 2px;
+  background: #71e1bf;
+  box-shadow: 0 0 5px rgba(113, 225, 191, .65);
+  transform: translateX(-50%);
+}
+.mouse.wheel::after {
+  left: 2px;
+  bottom: 2px;
+  width: 4px;
+  height: 4px;
+  border-right: 1px solid #71e1bf;
+  border-bottom: 1px solid #71e1bf;
+  transform: rotate(45deg);
+}
 .measure-readout { position: absolute; left: 50%; top: 98px; transform: translateX(-50%); padding: 10px 15px; border-radius: 10px; font: 500 11px "Cascadia Mono", "Consolas", monospace; }
 .selection-rect { position: absolute; z-index: 8; border: 1px solid #71e1bf; background: rgba(84, 220, 191, .12); box-shadow: 0 0 0 1px rgba(0, 0, 0, .45), inset 0 0 28px rgba(84, 220, 191, .08); pointer-events: none; }
 .hidden { display: none; }

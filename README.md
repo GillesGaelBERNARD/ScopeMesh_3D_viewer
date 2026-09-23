@@ -12,6 +12,8 @@ ScopeMesh keeps a lightweight overview available, streams better textures where 
 
 Everything runs locally. Models, generated assets, measurements, and cached detail stay on the machine.
 
+![Coral reef model open in ScopeMesh 3D viewer](app/screenshots/coral_reef.png)
+
 ## Features
 
 - **Large textured OBJ support** — add a model from the app; conversion happens in the background.
@@ -54,9 +56,9 @@ Generated assets are stored under `datasets/`; the original model is not modifie
 
 ## Included example
 
-The repository includes the complete **Sponge** source model under `examples/Sponge/` and its lightweight prepared viewing assets under `datasets/sponge/`. Sponge opens automatically on a fresh clone, so the viewer is ready to explore immediately after launch.
+The repository includes the complete **Sponge** source model under `app/examples/Sponge/` and its lightweight prepared viewing assets under `app/datasets/sponge/`. Sponge opens automatically on a fresh clone, so the viewer is ready to explore immediately after launch. This example is intentionally small: it demonstrates the complete workflow while keeping the repository within practical GitHub limits and avoiding a large download every time someone clones it.
 
-![Sponge example open in ScopeMesh 3D viewer](screenshots/sponge.png)
+![Sponge example open in ScopeMesh 3D viewer](app/screenshots/sponge.png)
 
 ## Quality and detail
 
@@ -71,7 +73,7 @@ ScopeMesh only loads a selected area when it can cover the complete selection sa
 
 Detail tiles are created from the original textures on first use, then cached on disk. You can set the cache limit from 0.5 to 10 GiB in 0.5 GiB steps and clear tiles for one model or all models. Clearing the cache never removes source files or prepared models.
 
-The default GPU texture budget is 2 GiB, a practical starting point for a 4 GB GPU. As a rule of thumb, start near half of the GPU's dedicated memory.
+The default GPU texture budget is 2 GiB, a practical starting point for a 4 GB GPU. As a rule of thumb, start near half of the GPU's dedicated memory. This setting is the total budget for the whole model, not the amount available only to a source-resolution detail area. While detail tiles are active, ScopeMesh reserves 25% of the budget for a lower-resolution view of the rest of the model and makes the remaining 75% available to detail. For example, a 2.0 GiB total budget allows up to 1.5 GiB of source-resolution detail, so a box estimated at 1.7 GiB will be rejected even though its estimate is below the total budget shown by the slider.
 
 ## Controls
 
@@ -93,6 +95,7 @@ Measurements are direct 3D distances between two selected points; they do not fo
 ## Development
 
 ```powershell
+cd app
 npm install
 npm run dev
 ```

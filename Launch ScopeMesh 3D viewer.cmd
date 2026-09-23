@@ -1,7 +1,7 @@
 @echo off
 setlocal
 title ScopeMesh 3D viewer Launcher
-cd /d "%~dp0"
+cd /d "%~dp0app"
 
 where npm >nul 2>&1
 if errorlevel 1 (
@@ -25,7 +25,7 @@ if errorlevel 1 (
   )
 
   echo Starting ScopeMesh 3D viewer...
-  start "ScopeMesh 3D viewer Server - close this window to stop" /min cmd.exe /k "cd /d ""%~dp0"" && npm run start:watch"
+  start "ScopeMesh 3D viewer Server - close this window to stop" /min cmd.exe /k "cd /d ""%~dp0app"" && npm run start:watch"
 )
 
 echo Waiting for ScopeMesh 3D viewer to be ready...
