@@ -107,6 +107,8 @@ npm run build
 
 ## Limitations
 
+ScopeMesh currently supports Windows only.
+
 Only textured Wavefront OBJ models with a referenced MTL and diffuse `map_Kd` images are supported.
 
 ## License
