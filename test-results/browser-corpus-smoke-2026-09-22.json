@@ -1,0 +1,1012 @@
+{
+  "preparationReportPath": "C:\\Users\\gille\\Documents\\ChatGPT\\3d_viewer\\test-results\\corpus-smoke-2026-09-22.json",
+  "startedAt": "2026-09-22T15:03:35.205Z",
+  "updatedAt": "2026-09-22T15:05:14.193Z",
+  "expectedCount": 52,
+  "passedCount": 49,
+  "failedCount": 0,
+  "skippedCount": 3,
+  "results": [
+    {
+      "ordinal": 1,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\BTC_05_05_22\\Gilles\\edited\\results\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-001",
+      "status": "complete",
+      "elapsedSeconds": 2.5,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 001",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "336,061",
+        "materials": "58",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 2,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\BTC_mapping\\13_04_22\\Gilles_section_1\\edited\\all\\odm_texturing\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-002",
+      "status": "complete",
+      "elapsedSeconds": 3.41,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 002",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "321,962",
+        "materials": "91",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 3,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\BTC_mapping\\13_04_22\\Jiska Adam\\odm_texturing\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-003",
+      "status": "complete",
+      "elapsedSeconds": 3.02,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 003",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "357,971",
+        "materials": "91",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 4,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Acanthastrea\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-004",
+      "status": "complete",
+      "elapsedSeconds": 1.48,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 004",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "344,675",
+        "materials": "22",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 5,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Acropora_snails_2\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-005",
+      "status": "complete",
+      "elapsedSeconds": 1.5,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 005",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "330,108",
+        "materials": "46",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 6,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Astreopora_close_up\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-006",
+      "status": "complete",
+      "elapsedSeconds": 1.61,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 006",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "355,359",
+        "materials": "29",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 7,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\astreopora\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-007",
+      "status": "complete",
+      "elapsedSeconds": 1.37,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 007",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "363,451",
+        "materials": "7",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 8,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Bohadshia_green\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-008",
+      "status": "complete",
+      "elapsedSeconds": 1.82,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 008",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "341,176",
+        "materials": "40",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 9,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\BT_near_channel_Rafa\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-009",
+      "status": "complete",
+      "elapsedSeconds": 1.36,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 009",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "336,588",
+        "materials": "75",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 10,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\BT_Platygya_Charlotte\\all\\odm_texturing\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-010",
+      "status": "complete",
+      "elapsedSeconds": 2.84,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 010",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "314,054",
+        "materials": "32",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 11,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\BT_Platygya_Charlotte\\from_further\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-011",
+      "status": "complete",
+      "elapsedSeconds": 1.87,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 011",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "332,001",
+        "materials": "26",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 12,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\BT_shallow_north_degraded\\all\\odm_texturing\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-012",
+      "status": "complete",
+      "elapsedSeconds": 1.52,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 012",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "333,107",
+        "materials": "40",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 13,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\BTNW_8_meters\\results\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-013",
+      "status": "complete",
+      "elapsedSeconds": 1.34,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 013",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "359,742",
+        "materials": "22",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 14,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\echinopora_close_up\\edited\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-014",
+      "status": "complete",
+      "elapsedSeconds": 2.48,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 014",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "341,104",
+        "materials": "36",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 15,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Favites_1\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-015",
+      "status": "skipped",
+      "error": "Cannot optimize texture \"odm_textured_model_geo_material0000_map_Kd.png\": vipspng: libpng read error"
+    },
+    {
+      "ordinal": 16,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Favites_large_coralites\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-016",
+      "status": "complete",
+      "elapsedSeconds": 1.56,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 016",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "317,893",
+        "materials": "25",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 17,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Leptoria\\results\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-017",
+      "status": "complete",
+      "elapsedSeconds": 1.47,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 017",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "322,480",
+        "materials": "21",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 18,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Lobophyllia_patch_1\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-018",
+      "status": "skipped",
+      "error": "Cannot optimize texture \"odm_textured_model_geo_material0008_map_Kd.png\": vipspng: libpng read error"
+    },
+    {
+      "ordinal": 19,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Max_Planck_Porites\\MeshroomCache\\Texturing\\Porites_Cap_Ternay\\texturedMesh.obj",
+      "datasetId": "corpus-019",
+      "status": "complete",
+      "elapsedSeconds": 3,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 019",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "5,347,651",
+        "materials": "29",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 20,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\NEW_Rafa\\6\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-020",
+      "status": "complete",
+      "elapsedSeconds": 2.13,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 020",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "286,044",
+        "materials": "34",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 21,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\NEW_Rafa\\8\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-021",
+      "status": "complete",
+      "elapsedSeconds": 1.79,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 021",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "285,290",
+        "materials": "31",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 22,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\NEW_Rafa\\9\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-022",
+      "status": "complete",
+      "elapsedSeconds": 3.37,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 022",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "333,058",
+        "materials": "27",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 23,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\PL_broken_lobophyllia\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-023",
+      "status": "complete",
+      "elapsedSeconds": 1.45,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 023",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "349,933",
+        "materials": "36",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 24,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\PL_Dipsastrea\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-024",
+      "status": "skipped",
+      "error": "Cannot read texture \"odm_textured_model_geo_material0009_map_Kd.png\": ENOENT: no such file or directory, stat 'I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\PL_Dipsastrea\\textured_model\\odm_textured_model_geo_material0009_map_Kd.png'"
+    },
+    {
+      "ordinal": 25,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\PL_diversity\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-025",
+      "status": "complete",
+      "elapsedSeconds": 1.84,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 025",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "336,259",
+        "materials": "29",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 26,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\PL_Echin_Lobo_Porites\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-026",
+      "status": "complete",
+      "elapsedSeconds": 1.77,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 026",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "347,273",
+        "materials": "32",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 27,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\PL_Echniopora_vase\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-027",
+      "status": "complete",
+      "elapsedSeconds": 1.85,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 027",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "321,887",
+        "materials": "37",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 28,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\PL_hydnophora\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-028",
+      "status": "complete",
+      "elapsedSeconds": 3.61,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 028",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "339,146",
+        "materials": "35",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 29,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\PL_massive_porites_2\\all\\odm_texturing\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-029",
+      "status": "complete",
+      "elapsedSeconds": 1.82,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 029",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "339,210",
+        "materials": "66",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 30,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\PL_multiple_large_Porites\\all\\odm_texturing\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-030",
+      "status": "complete",
+      "elapsedSeconds": 2.26,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 030",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "346,997",
+        "materials": "97",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 31,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\PL_Porites_Massive_1\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-031",
+      "status": "complete",
+      "elapsedSeconds": 2.25,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 031",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "329,556",
+        "materials": "35",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 32,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\PL_small_acropora\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-032",
+      "status": "complete",
+      "elapsedSeconds": 2.1,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 032",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "349,306",
+        "materials": "31",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 33,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Platygyra_close_up\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-033",
+      "status": "complete",
+      "elapsedSeconds": 1.51,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 033",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "373,406",
+        "materials": "5",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 34,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Porites_rus_in_rubble\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-034",
+      "status": "complete",
+      "elapsedSeconds": 2,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 034",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "361,913",
+        "materials": "31",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 35,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Porites_rus_plus_boulder\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-035",
+      "status": "complete",
+      "elapsedSeconds": 2.2,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 035",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "336,222",
+        "materials": "37",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 36,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\porites_secondary_corals\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-036",
+      "status": "complete",
+      "elapsedSeconds": 1.86,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 036",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "338,350",
+        "materials": "20",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 37,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\prickly_redfish\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-037",
+      "status": "complete",
+      "elapsedSeconds": 3.29,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 037",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "336,445",
+        "materials": "56",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 38,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Rocky\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-038",
+      "status": "complete",
+      "elapsedSeconds": 1.42,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 038",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "336,677",
+        "materials": "14",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 39,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Soft_corals\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-039",
+      "status": "complete",
+      "elapsedSeconds": 2.25,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 039",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "334,449",
+        "materials": "35",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 40,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Sponge\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-040",
+      "status": "complete",
+      "elapsedSeconds": 1.47,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 040",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "329,516",
+        "materials": "38",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 41,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\trial_5\\odm_texturing\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-041",
+      "status": "complete",
+      "elapsedSeconds": 0.9,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 041",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "371,491",
+        "materials": "8",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 42,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\trial_7_lobophyllia\\odm_texturing\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-042",
+      "status": "complete",
+      "elapsedSeconds": 1.69,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 042",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "341,185",
+        "materials": "23",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 43,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Under_big_rock\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-043",
+      "status": "complete",
+      "elapsedSeconds": 1.49,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 043",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "334,773",
+        "materials": "25",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 44,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\yoyo\\all\\odm_texturing\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-044",
+      "status": "complete",
+      "elapsedSeconds": 1.66,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 044",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "301,492",
+        "materials": "58",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 45,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\DONE\\Zoanthid\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-045",
+      "status": "complete",
+      "elapsedSeconds": 1.77,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 045",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "356,659",
+        "materials": "14",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 46,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\Emily_3D_model\\edited\\all\\odm_texturing\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-046",
+      "status": "complete",
+      "elapsedSeconds": 2.87,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 046",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "316,036",
+        "materials": "69",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 47,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\Emily_large_area\\results\\1_3D\\textured_model\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-047",
+      "status": "complete",
+      "elapsedSeconds": 2.12,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 047",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "317,606",
+        "materials": "107",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 48,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\OYSTER_REEF\\all\\odm_texturing\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-048",
+      "status": "complete",
+      "elapsedSeconds": 2.24,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 048",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "309,805",
+        "materials": "38",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 49,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\Secret_Beach_22_03_22\\Gilles_edited\\all_1st_third\\odm_texturing\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-049",
+      "status": "complete",
+      "elapsedSeconds": 1.62,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 049",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "345,760",
+        "materials": "74",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 50,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\Secret_Beach_22_03_22\\Gilles_edited\\all_2nd_third\\odm_texturing\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-050",
+      "status": "complete",
+      "elapsedSeconds": 1.96,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 050",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "348,480",
+        "materials": "60",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 51,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\Secret_Beach_22_03_22\\Gilles_edited\\all_3rd_third\\odm_texturing\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-051",
+      "status": "complete",
+      "elapsedSeconds": 1.7,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 051",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "338,946",
+        "materials": "49",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    },
+    {
+      "ordinal": 52,
+      "path": "I:\\Gilles\\Documents\\TRAVAIL\\photogrammetry\\Secret_Beach_23_03_22\\Gilles_section_1\\all\\odm_texturing\\odm_textured_model_geo.obj",
+      "datasetId": "corpus-052",
+      "status": "complete",
+      "elapsedSeconds": 1.89,
+      "state": {
+        "readyState": "complete",
+        "name": "Corpus 052",
+        "percent": "100%",
+        "detail": "Overview ready. Detail follows the camera or a drawn area.",
+        "triangles": "336,923",
+        "materials": "70",
+        "canvasCount": 1,
+        "canvasWidth": 1264,
+        "canvasHeight": 805,
+        "contextLost": false
+      },
+      "error": null
+    }
+  ]
+}

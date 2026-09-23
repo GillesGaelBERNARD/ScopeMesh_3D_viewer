@@ -1,0 +1,1294 @@
+{
+  "schemaVersion": 1,
+  "id": "sponge",
+  "label": "Sponge",
+  "createdAt": "2026-09-23T09:16:47.243Z",
+  "modelUrl": "/dataset/sponge/model.gltf",
+  "upAxis": "Z",
+  "bounds": {
+    "min": [
+      -32.419106,
+      -21.216282,
+      -35.003597
+    ],
+    "max": [
+      14.267699,
+      7.710999,
+      -4.535533
+    ]
+  },
+  "center": [
+    -9.0757035,
+    -6.752641499999999,
+    -19.769565
+  ],
+  "extent": [
+    46.686805,
+    28.927281,
+    30.468064
+  ],
+  "stats": {
+    "sourceVertices": 191233,
+    "renderedVertices": 214880,
+    "triangles": 329516,
+    "materials": 38,
+    "sourceTextureBytes": 114021617,
+    "fullDecodedTextureBytes": 654049280
+  },
+  "materials": [
+    {
+      "name": "material0000",
+      "bounds": {
+        "min": [
+          -20.111292,
+          -17.037661,
+          -33.42503
+        ],
+        "max": [
+          14.164286,
+          7.312691,
+          -5.453423
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-000.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-000.jpg",
+        "width": 2048,
+        "height": 2048,
+        "estimatedGpuBytes": 22369622
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0000_map_Kd.png",
+        "width": 4096,
+        "height": 4096,
+        "estimatedGpuBytes": 89478486
+      }
+    },
+    {
+      "name": "material0001",
+      "bounds": {
+        "min": [
+          -29.705681,
+          -19.149906,
+          -34.75293
+        ],
+        "max": [
+          13.538655,
+          7.330367,
+          -4.976968
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-001.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-001.jpg",
+        "width": 2048,
+        "height": 2048,
+        "estimatedGpuBytes": 22369622
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0001_map_Kd.png",
+        "width": 4096,
+        "height": 4096,
+        "estimatedGpuBytes": 89478486
+      }
+    },
+    {
+      "name": "material0002",
+      "bounds": {
+        "min": [
+          -17.685905,
+          -17.985561,
+          -28.328531
+        ],
+        "max": [
+          10.971638,
+          7.210129,
+          -4.753756
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-002.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-002.jpg",
+        "width": 2048,
+        "height": 2048,
+        "estimatedGpuBytes": 22369622
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0002_map_Kd.png",
+        "width": 4096,
+        "height": 4096,
+        "estimatedGpuBytes": 89478486
+      }
+    },
+    {
+      "name": "material0003",
+      "bounds": {
+        "min": [
+          -29.549471,
+          -21.216282,
+          -34.204155
+        ],
+        "max": [
+          10.827674,
+          6.517598,
+          -4.929876
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-003.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-003.jpg",
+        "width": 2048,
+        "height": 2048,
+        "estimatedGpuBytes": 22369622
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0003_map_Kd.png",
+        "width": 4096,
+        "height": 4096,
+        "estimatedGpuBytes": 89478486
+      }
+    },
+    {
+      "name": "material0004",
+      "bounds": {
+        "min": [
+          -23.392181,
+          -21.095097,
+          -32.458588
+        ],
+        "max": [
+          10.866318,
+          5.530865,
+          -6.513139
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-004.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-004.jpg",
+        "width": 2048,
+        "height": 2048,
+        "estimatedGpuBytes": 22369622
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0004_map_Kd.png",
+        "width": 4096,
+        "height": 4096,
+        "estimatedGpuBytes": 89478486
+      }
+    },
+    {
+      "name": "material0005",
+      "bounds": {
+        "min": [
+          -15.828995,
+          -16.668467,
+          -28.650431
+        ],
+        "max": [
+          13.542565,
+          6.527045,
+          -4.535533
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-005.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-005.jpg",
+        "width": 2048,
+        "height": 2048,
+        "estimatedGpuBytes": 22369622
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0005_map_Kd.png",
+        "width": 4096,
+        "height": 4096,
+        "estimatedGpuBytes": 89478486
+      }
+    },
+    {
+      "name": "material0006",
+      "bounds": {
+        "min": [
+          -27.041376,
+          -19.19138,
+          -34.54739
+        ],
+        "max": [
+          13.711224,
+          7.670563,
+          -4.535533
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-006.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-006.jpg",
+        "width": 2048,
+        "height": 2048,
+        "estimatedGpuBytes": 22369622
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0006_map_Kd.png",
+        "width": 4096,
+        "height": 4096,
+        "estimatedGpuBytes": 89478486
+      }
+    },
+    {
+      "name": "material0007",
+      "bounds": {
+        "min": [
+          -32.419106,
+          -21.095097,
+          -34.750347
+        ],
+        "max": [
+          11.60826,
+          7.495441,
+          -4.60203
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-007.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-007.jpg",
+        "width": 2048,
+        "height": 2048,
+        "estimatedGpuBytes": 22369622
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0007_map_Kd.png",
+        "width": 4096,
+        "height": 4096,
+        "estimatedGpuBytes": 89478486
+      }
+    },
+    {
+      "name": "material0008",
+      "bounds": {
+        "min": [
+          -27.661291,
+          -20.001778,
+          -34.760773
+        ],
+        "max": [
+          11.962618,
+          7.382992,
+          -4.535533
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-008.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-008.jpg",
+        "width": 2048,
+        "height": 2048,
+        "estimatedGpuBytes": 22369622
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0008_map_Kd.png",
+        "width": 4096,
+        "height": 4096,
+        "estimatedGpuBytes": 89478486
+      }
+    },
+    {
+      "name": "material0009",
+      "bounds": {
+        "min": [
+          -29.532909,
+          -19.58843,
+          -33.934769
+        ],
+        "max": [
+          12.758499,
+          7.423142,
+          -4.654287
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-009.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-009.jpg",
+        "width": 2048,
+        "height": 2048,
+        "estimatedGpuBytes": 22369622
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0009_map_Kd.png",
+        "width": 2048,
+        "height": 2048,
+        "estimatedGpuBytes": 22369622
+      }
+    },
+    {
+      "name": "material0010",
+      "bounds": {
+        "min": [
+          -24.245176,
+          -17.504181,
+          -34.395348
+        ],
+        "max": [
+          11.79131,
+          5.061067,
+          -5.076531
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-010.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-010.jpg",
+        "width": 1024,
+        "height": 1024,
+        "estimatedGpuBytes": 5592406
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0010_map_Kd.png",
+        "width": 1024,
+        "height": 1024,
+        "estimatedGpuBytes": 5592406
+      }
+    },
+    {
+      "name": "material0011",
+      "bounds": {
+        "min": [
+          -29.61182,
+          -20.368031,
+          -33.997856
+        ],
+        "max": [
+          13.742442,
+          7.625992,
+          -5.102586
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-011.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-011.jpg",
+        "width": 1024,
+        "height": 1024,
+        "estimatedGpuBytes": 5592406
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0011_map_Kd.png",
+        "width": 1024,
+        "height": 1024,
+        "estimatedGpuBytes": 5592406
+      }
+    },
+    {
+      "name": "material0012",
+      "bounds": {
+        "min": [
+          -26.735834,
+          -19.792793,
+          -32.885979
+        ],
+        "max": [
+          14.24736,
+          7.422918,
+          -4.705919
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-012.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-012.jpg",
+        "width": 1024,
+        "height": 1024,
+        "estimatedGpuBytes": 5592406
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0012_map_Kd.png",
+        "width": 1024,
+        "height": 1024,
+        "estimatedGpuBytes": 5592406
+      }
+    },
+    {
+      "name": "material0013",
+      "bounds": {
+        "min": [
+          -19.293365,
+          -17.661188,
+          -33.833199
+        ],
+        "max": [
+          11.917261,
+          7.670563,
+          -4.982773
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-013.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-013.jpg",
+        "width": 1024,
+        "height": 1024,
+        "estimatedGpuBytes": 5592406
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0013_map_Kd.png",
+        "width": 1024,
+        "height": 1024,
+        "estimatedGpuBytes": 5592406
+      }
+    },
+    {
+      "name": "material0014",
+      "bounds": {
+        "min": [
+          -27.202875,
+          -17.685425,
+          -33.934769
+        ],
+        "max": [
+          12.466295,
+          5.559852,
+          -4.948483
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-014.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-014.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0014_map_Kd.png",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      }
+    },
+    {
+      "name": "material0015",
+      "bounds": {
+        "min": [
+          -28.472555,
+          -18.52726,
+          -32.5131
+        ],
+        "max": [
+          12.029411,
+          5.177899,
+          -5.024623
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-015.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-015.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0015_map_Kd.png",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      }
+    },
+    {
+      "name": "material0016",
+      "bounds": {
+        "min": [
+          -29.590063,
+          -21.216282,
+          -32.550209
+        ],
+        "max": [
+          11.353874,
+          7.294075,
+          -5.185574
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-016.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-016.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0016_map_Kd.png",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      }
+    },
+    {
+      "name": "material0017",
+      "bounds": {
+        "min": [
+          -29.487131,
+          -17.563551,
+          -34.226257
+        ],
+        "max": [
+          13.538655,
+          6.827024,
+          -5.065711
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-017.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-017.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0017_map_Kd.png",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      }
+    },
+    {
+      "name": "material0018",
+      "bounds": {
+        "min": [
+          -27.856956,
+          -18.472567,
+          -31.127781
+        ],
+        "max": [
+          12.131053,
+          7.169628,
+          -5.089089
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-018.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-018.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0018_map_Kd.png",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      }
+    },
+    {
+      "name": "material0019",
+      "bounds": {
+        "min": [
+          -29.567635,
+          -18.510796,
+          -34.243744
+        ],
+        "max": [
+          11.674726,
+          6.822889,
+          -4.775826
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-019.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-019.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0019_map_Kd.png",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      }
+    },
+    {
+      "name": "material0020",
+      "bounds": {
+        "min": [
+          -30.91538,
+          -19.695917,
+          -33.42503
+        ],
+        "max": [
+          12.298276,
+          6.558064,
+          -4.708233
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-020.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-020.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0020_map_Kd.png",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      }
+    },
+    {
+      "name": "material0021",
+      "bounds": {
+        "min": [
+          -27.641848,
+          -17.778753,
+          -31.576567
+        ],
+        "max": [
+          12.543935,
+          6.809558,
+          -4.671468
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-021.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-021.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0021_map_Kd.png",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      }
+    },
+    {
+      "name": "material0022",
+      "bounds": {
+        "min": [
+          -29.094297,
+          -17.14608,
+          -33.269421
+        ],
+        "max": [
+          13.476287,
+          6.93951,
+          -4.828736
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-022.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-022.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0022_map_Kd.png",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      }
+    },
+    {
+      "name": "material0023",
+      "bounds": {
+        "min": [
+          -17.101669,
+          -17.65723,
+          -33.323082
+        ],
+        "max": [
+          13.538655,
+          6.740051,
+          -5.141726
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-023.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-023.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0023_map_Kd.png",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      }
+    },
+    {
+      "name": "material0024",
+      "bounds": {
+        "min": [
+          -29.590063,
+          -17.85895,
+          -34.54549
+        ],
+        "max": [
+          13.472633,
+          7.169628,
+          -5.040412
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-024.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-024.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0024_map_Kd.png",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      }
+    },
+    {
+      "name": "material0025",
+      "bounds": {
+        "min": [
+          -26.939428,
+          -17.351145,
+          -33.017239
+        ],
+        "max": [
+          13.527448,
+          6.793421,
+          -5.037583
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-025.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-025.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0025_map_Kd.png",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      }
+    },
+    {
+      "name": "material0026",
+      "bounds": {
+        "min": [
+          -16.438837,
+          -13.487099,
+          -31.689295
+        ],
+        "max": [
+          11.046736,
+          3.867875,
+          -5.379753
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-026.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-026.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0026_map_Kd.png",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      }
+    },
+    {
+      "name": "material0027",
+      "bounds": {
+        "min": [
+          -31.119276,
+          -18.981127,
+          -33.71452
+        ],
+        "max": [
+          13.406045,
+          7.490105,
+          -4.625626
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-027.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-027.jpg",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0027_map_Kd.png",
+        "width": 512,
+        "height": 512,
+        "estimatedGpuBytes": 1398102
+      }
+    },
+    {
+      "name": "material0028",
+      "bounds": {
+        "min": [
+          -25.376644,
+          -16.790434,
+          -33.118778
+        ],
+        "max": [
+          13.57555,
+          6.755625,
+          -5.149112
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-028.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-028.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0028_map_Kd.png",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      }
+    },
+    {
+      "name": "material0029",
+      "bounds": {
+        "min": [
+          -28.469542,
+          -21.124392,
+          -32.507504
+        ],
+        "max": [
+          12.075858,
+          6.589323,
+          -5.577363
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-029.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-029.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0029_map_Kd.png",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      }
+    },
+    {
+      "name": "material0030",
+      "bounds": {
+        "min": [
+          -29.488117,
+          -20.926468,
+          -33.801376
+        ],
+        "max": [
+          11.79131,
+          4.361341,
+          -5.811851
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-030.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-030.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0030_map_Kd.png",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      }
+    },
+    {
+      "name": "material0031",
+      "bounds": {
+        "min": [
+          -26.412231,
+          -20.807156,
+          -32.405556
+        ],
+        "max": [
+          12.899127,
+          6.717738,
+          -5.013967
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-031.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-031.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0031_map_Kd.png",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      }
+    },
+    {
+      "name": "material0032",
+      "bounds": {
+        "min": [
+          -31.017328,
+          -19.695429,
+          -34.070698
+        ],
+        "max": [
+          13.941685,
+          6.580987,
+          -4.777782
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-032.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-032.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0032_map_Kd.png",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      }
+    },
+    {
+      "name": "material0033",
+      "bounds": {
+        "min": [
+          -25.313505,
+          -18.99431,
+          -34.435577
+        ],
+        "max": [
+          13.733795,
+          2.737442,
+          -5.175271
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-033.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-033.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0033_map_Kd.png",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      }
+    },
+    {
+      "name": "material0034",
+      "bounds": {
+        "min": [
+          -29.619358,
+          -19.899832,
+          -34.648399
+        ],
+        "max": [
+          13.79686,
+          6.783547,
+          -4.950951
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-034.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-034.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0034_map_Kd.png",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      }
+    },
+    {
+      "name": "material0035",
+      "bounds": {
+        "min": [
+          -30.822529,
+          -19.867558,
+          -34.188995
+        ],
+        "max": [
+          14.164286,
+          6.240178,
+          -5.076628
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-035.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-035.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0035_map_Kd.png",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      }
+    },
+    {
+      "name": "material0036",
+      "bounds": {
+        "min": [
+          -32.138752,
+          -20.788454,
+          -34.728508
+        ],
+        "max": [
+          13.729348,
+          4.056295,
+          -5.095729
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-036.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-036.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0036_map_Kd.png",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      }
+    },
+    {
+      "name": "material0037",
+      "bounds": {
+        "min": [
+          -30.563223,
+          -20.714176,
+          -34.648399
+        ],
+        "max": [
+          12.119951,
+          3.143127,
+          -8.190545
+        ]
+      },
+      "low": {
+        "url": "/dataset/sponge/low/material-037.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "medium": {
+        "url": "/dataset/sponge/medium/material-037.jpg",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      },
+      "full": {
+        "url": "/source/sponge/odm_textured_model_geo_material0037_map_Kd.png",
+        "width": 256,
+        "height": 256,
+        "estimatedGpuBytes": 349526
+      }
+    }
+  ]
+}

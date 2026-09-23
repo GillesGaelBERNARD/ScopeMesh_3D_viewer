@@ -1,0 +1,8 @@
+node_modules/
+dist/
+datasets/*
+!datasets/sponge/
+datasets/sponge/detail-tiles/
+coverage/
+*.log
+.DS_Store

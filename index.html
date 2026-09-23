@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#071316" />
+    <title>ScopeMesh 3D viewer</title>
+  </head>
+  <body>
+    <main id="app">
+      <div id="viewport" aria-label="Interactive coral reef model"></div>
+
+      <header class="topbar glass">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">S</span>
+          <div><strong>ScopeMesh 3D viewer</strong><small id="dataset-name">Loading dataset…</small></div>
+        </div>
+        <div class="top-actions">
+          <select class="dataset-switch" id="dataset-switch" aria-label="Open dataset"></select>
+          <div class="status-cluster">
+            <span class="status-dot" id="status-dot"></span>
+            <span id="stream-status">Starting…</span>
+          </div>
+          <button class="add-model" id="add-model" type="button">+ Add model</button>
+          <button class="panel-toggle" id="panel-toggle" type="button" aria-pressed="false">Hide controls</button>
+        </div>
+      </header>
+
+      <aside class="panel glass" aria-label="Viewer controls">
+        <section>
+          <div class="section-heading">
+            <label class="eyebrow" for="quality">Texture streaming</label>
+            <div class="section-info">
+              <button class="info-trigger" type="button" aria-label="About texture streaming" aria-expanded="false" aria-controls="texture-streaming-info">?</button>
+              <div class="info-popover" id="texture-streaming-info" role="dialog" aria-label="About texture streaming" hidden>
+                <button class="info-close" type="button" aria-label="Close">×</button>
+                <p><strong>Quality</strong> decides how aggressively textures sharpen after movement stops. If the model's complete source-resolution texture set fits the GPU budget, <strong>Auto · balanced</strong> and <strong>Detail · aggressive</strong> load the entire model at full source resolution; the top status bar confirms when loading is complete. Otherwise, textures stream within the budget. Draw an area to keep one region at source resolution; the status bar confirms when that selection is fully loaded.</p>
+              </div>
+            </div>
+          </div>
+          <select id="quality">
+            <option value="auto">Auto · balanced</option>
+            <option value="overview">Overview · fastest</option>
+            <option value="detail">Detail · aggressive</option>
+          </select>
+          <div class="quality-readout">
+            <span><b id="full-count">0</b> full</span>
+            <span><b id="medium-count">0</b> medium</span>
+            <span><b id="memory-count">0</b> MiB</span>
+          </div>
+          <div class="budget-setting">
+            <div class="budget-heading">
+              <label for="texture-budget">GPU texture budget</label>
+              <output id="texture-budget-output" for="texture-budget">2.0 GiB</output>
+            </div>
+            <input id="texture-budget" type="range" min="512" max="12288" step="256" value="2048" />
+            <div class="budget-scale"><span>0.5 GiB</span><span>12 GiB</span></div>
+          </div>
+          <p class="tool-help">Use about half of dedicated GPU memory. 2.0 GiB is a safe start for a 4 GB GPU.</p>
+          <p class="tool-help">Detail keeps loaded source tiles while you orbit or zoom, then reuses visible tiles after movement stops. Models whose complete source set fits memory load fully. Draw a box to pin a specific area.</p>
+          <div class="button-grid selection-actions">
+            <button id="select-area" type="button" aria-pressed="false">Draw detail area</button>
+            <button id="clear-area" type="button">Clear area</button>
+          </div>
+          <p class="tool-state" id="area-status">No detail area pinned</p>
+        </section>
+
+        <section>
+          <div class="section-heading">
+            <span class="eyebrow">View</span>
+            <div class="section-info">
+              <button class="info-trigger" type="button" aria-label="About view controls" aria-expanded="false" aria-controls="view-info">?</button>
+              <div class="info-popover" id="view-info" role="dialog" aria-label="About view controls" hidden>
+                <button class="info-close" type="button" aria-label="Close">×</button>
+                <p><strong>Perspective</strong> and <strong>Top</strong> reset the camera to useful orientations. <strong>Wireframe</strong> overlays mesh edges so you can inspect geometry density.</p>
+              </div>
+            </div>
+          </div>
+          <div class="button-grid">
+            <button id="home-view" type="button">Perspective</button>
+            <button id="top-view" type="button">Top</button>
+            <button id="wireframe" type="button" aria-pressed="false">Wireframe</button>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-heading">
+            <span class="eyebrow">Scale &amp; measure</span>
+            <div class="section-info">
+              <button class="info-trigger" type="button" aria-label="About scale and measure controls" aria-expanded="false" aria-controls="scale-measure-info">?</button>
+              <div class="info-popover" id="scale-measure-info" role="dialog" aria-label="About scale and measure controls" hidden>
+                <button class="info-close" type="button" aria-label="Close">×</button>
+                <p><strong>Add reference</strong> links two picked points to a known real length. Multiple references fit a more reliable scale. <strong>Measure</strong> reports the straight 3D distance between two picked points.</p>
+              </div>
+            </div>
+          </div>
+          <p class="tool-help">Calibrate with one or more known lengths. More references improve the fitted scale.</p>
+          <div class="button-grid">
+            <button id="calibrate" type="button" aria-pressed="false">Add reference</button>
+            <button id="measure" type="button" aria-pressed="false">Measure</button>
+          </div>
+          <div class="calibration-summary">
+            <span id="calibration-status">Uncalibrated · model units</span>
+            <button class="text-button" id="reset-calibration" type="button">Reset</button>
+          </div>
+        </section>
+
+        <section class="dataset-stats">
+          <div class="section-heading">
+            <span class="eyebrow">Dataset</span>
+            <div class="section-info">
+              <button class="info-trigger" type="button" aria-label="About dataset information" aria-expanded="false" aria-controls="dataset-info">?</button>
+              <div class="info-popover" id="dataset-info" role="dialog" aria-label="About dataset information" hidden>
+                <button class="info-close" type="button" aria-label="Close">×</button>
+                <p>Summarizes the open model: mesh triangle count, textured material sections, and total size of its original texture images.</p>
+              </div>
+            </div>
+          </div>
+          <dl>
+            <div><dt>Triangles</dt><dd id="triangle-count">—</dd></div>
+            <div><dt>Sections</dt><dd id="material-count">—</dd></div>
+            <div><dt>Original imagery</dt><dd id="texture-size">—</dd></div>
+          </dl>
+        </section>
+
+        <section>
+          <div class="section-heading">
+            <span class="eyebrow">Detail tile disk cache</span>
+            <div class="section-info">
+              <button class="info-trigger" type="button" aria-label="About the detail tile disk cache" aria-expanded="false" aria-controls="detail-cache-info">?</button>
+              <div class="info-popover" id="detail-cache-info" role="dialog" aria-label="About the detail tile disk cache" hidden>
+                <button class="info-close" type="button" aria-label="Close">×</button>
+                <p>Stores generated source-detail tiles on disk so revisited areas load faster. The limit covers all models; oldest tiles are removed first. Clear actions never remove original images or prepared models.</p>
+              </div>
+            </div>
+          </div>
+          <p class="tool-state" id="detail-cache-status">Checking cache…</p>
+          <div class="budget-setting cache-budget-setting">
+            <div class="budget-heading">
+              <label for="detail-cache-limit">Maximum across all models</label>
+              <output id="detail-cache-limit-output" for="detail-cache-limit">2.0 GiB</output>
+            </div>
+            <input id="detail-cache-limit" type="range" min="0.5" max="10" step="0.5" value="2" />
+            <div class="budget-scale"><span>0.5 GiB</span><span>10 GiB</span></div>
+          </div>
+          <div class="button-grid selection-actions">
+            <button id="clear-model-cache" type="button" disabled>Clear this model</button>
+            <button id="clear-all-cache" type="button" disabled>Clear all tiles</button>
+          </div>
+          <p class="tool-help">Lowering the limit removes the oldest tiles. Source images and prepared models stay intact. Cleared areas take longer to load next time.</p>
+        </section>
+      </aside>
+
+      <div class="loading glass" id="loading">
+        <div class="loading-heading"><span>Preparing reef</span><b id="loading-percent">0%</b></div>
+        <div class="progress"><i id="loading-bar"></i></div>
+        <p id="loading-detail">Loading compact geometry and overview textures…</p>
+      </div>
+
+      <div class="measure-readout glass hidden" id="measure-readout">Click two points on the reef</div>
+      <div class="selection-rect hidden" id="selection-rect"></div>
+      <div class="help glass">
+        <span><i class="mouse left"></i> Orbit</span>
+        <span><i class="mouse right"></i> Pan</span>
+        <span><i class="mouse wheel"></i> Zoom</span>
+        <span>Double-click to inspect full detail</span>
+      </div>
+
+      <dialog class="app-dialog" id="calibration-dialog">
+        <form id="calibration-form">
+          <span class="dialog-kicker">Scale reference</span>
+          <h2>Enter the known length</h2>
+          <p>The two points are <strong id="raw-reference-distance">—</strong> model units apart.</p>
+          <div class="length-input">
+            <input id="known-length" type="number" min="0" step="any" required autofocus aria-label="Known length" />
+            <select id="known-unit" aria-label="Length unit">
+              <option value="mm">mm</option>
+              <option value="cm" selected>cm</option>
+              <option value="m">m</option>
+            </select>
+          </div>
+          <div class="dialog-actions">
+            <button class="secondary" id="cancel-calibration" type="button">Cancel</button>
+            <button type="submit">Use reference</button>
+          </div>
+        </form>
+      </dialog>
+
+      <dialog class="app-dialog import-dialog" id="import-dialog">
+        <form id="import-form">
+          <span class="dialog-kicker">New reef</span>
+          <h2>Add a textured OBJ</h2>
+          <p>Choose the OBJ file. ScopeMesh 3D viewer reads its MTL and textures from the same folder, then creates lightweight viewing assets. Originals stay untouched.</p>
+          <label>OBJ file</label>
+          <div class="path-input">
+            <input id="model-path" type="text" required placeholder="C:\path\to\model.obj" />
+            <button id="browse-model" type="button">Browse…</button>
+          </div>
+          <label for="model-label">Display name</label>
+          <input id="model-label" type="text" placeholder="My reef survey" />
+          <div class="import-progress hidden" id="import-progress">
+            <div class="progress"><i id="import-bar"></i></div>
+            <p id="import-message">Starting…</p>
+          </div>
+          <div class="form-error hidden" id="import-error" role="alert" aria-live="assertive"></div>
+          <div class="dialog-actions">
+            <button class="secondary" id="cancel-import" type="button">Close</button>
+            <button id="start-import" type="submit">Convert and open</button>
+          </div>
+        </form>
+      </dialog>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "scopemesh-3d-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare-model": "tsx scripts/prepare.ts",
+    "dev": "tsx watch server.ts --dev",
+    "build": "tsc --noEmit && vite build",
+    "start": "tsx server.ts",
+    "start:watch": "tsx watch server.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "express": "5.2.1",
+    "sharp": "0.35.4",
+    "three": "0.186.0"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.6",
+    "@types/node": "24.5.2",
+    "@types/three": "0.186.0",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.0",
+    "vitest": "5.0.1"
+  }
+}
