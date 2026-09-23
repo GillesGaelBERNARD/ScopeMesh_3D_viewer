@@ -33,8 +33,7 @@ Everything runs locally. Models, generated assets, measurements, and cached deta
 - **Windows 10 or 11** for the included launcher and model file picker.
 - **Node.js 20.19+ or 22.12+**, with npm. Node.js is not included.
 - **A modern WebGL 2 browser**, such as Chrome, Edge, or Firefox.
-- **An internet connection for the first launch** so npm can download dependencies. ScopeMesh runs locally afterward.
-- **Free disk space** for converted viewing assets and the detail-tile cache. The amount depends on the source model and chosen cache limit.
+- 
 
 ### Model input
 
