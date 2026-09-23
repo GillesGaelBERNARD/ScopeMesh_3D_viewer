@@ -33,7 +33,6 @@ Everything runs locally. Models, generated assets, measurements, and cached deta
 - **Windows 10 or 11** for the included launcher and model file picker.
 - **Node.js 20.19+ or 22.12+**, with npm. Node.js is not included.
 - **A modern WebGL 2 browser**, such as Chrome, Edge, or Firefox.
-- 
 
 ### Model input
 
