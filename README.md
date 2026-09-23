@@ -104,3 +104,11 @@ Open <http://127.0.0.1:4173>. Useful checks:
 npm test
 npm run build
 ```
+
+## Limitations
+
+Only textured Wavefront OBJ models with a referenced MTL and diffuse `map_Kd` images are supported.
+
+## License
+
+ScopeMesh is released under the [OSI-approved Zero-Clause BSD (0BSD) license](https://opensource.org/license/0bsd), permitting unrestricted use, modification, and distribution without attribution.
