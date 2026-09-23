@@ -2,7 +2,7 @@
   "name": "scopemesh-3d-viewer",
   "version": "0.1.0",
   "private": true,
-  "license": "0BSD",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "prepare-model": "tsx scripts/prepare.ts",
